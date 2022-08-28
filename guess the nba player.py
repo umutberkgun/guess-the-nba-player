@@ -29,6 +29,12 @@ You have 5 guesses!
 
 while True:
     guess = (input("which top 10 nba player is this?"))
+    
+    if counter == 0:
+       print("the answer is ", answer)
+       break
+    
+    
 
     for i in range(len(guess)):
         guess = guess.upper()
